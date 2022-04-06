@@ -1,0 +1,72 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #ff8500;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 700px;
+}
+
+.logo {
+  text-decoration: none;
+  color: #3a6cf4;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 02em;
+}
+.x {
+  height: 500px;
+  width: 10000px;
+  border: 5px #ff8500;
+  background-image: url(./WhatsApp\ Image\ 2022-04-03\ at\ 11.43.57\ PM.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 600px 100px;
+}
+section {
+  padding: 100px 850px;
+}
+
+.main {
+  width: 900%;
+  /* display: flex; */
+  align-items: center;
+}
+
+.main h3 {
+  /* display: inline-block; */
+  margin-top: 10px;
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: 0px;
+  margin-bottom: 30px;
+}
+
+.main-btn {
+  color: #ffff;
+  background-color: #3a6cf4;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+
+.main-btn:hover {
+  background-color: #0a49f6;
+  transform: scale(1.1);
+}
